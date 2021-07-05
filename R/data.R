@@ -87,3 +87,159 @@
 #'}
 #' @source \url{https://www.gbif.org/dataset/9801530f-ab2f-4913-9050-d7239d12aed0}
 "Seapop"
+
+#' @title Bumblebees and butterflies in Norway
+#' @description The Norwegian Institute for Nature Research (www.nina.no) has conducted area representative surveys of butterflies and bumblebees since 2009, on behalf of the Norwegian Environment Agency (https://www.miljodirektoratet.no/). The monitoring project is designed to provide indicators of bumblebees and butterflies to the Nature Index of Norway (https://naturindeks.no/), which measures the condition of the biodiversity in Norway. The monitoring project is supervised by the Norwegian Institute for Nature Research, but the field inventories are done by citizen scientists administered by Sabima (https://www.sabima.no/). More information (in Norwegian) can be found at the project web-page, which also has a rudimentary data display of the projects results (https://www.nina.no/Våre-fagområder/Miljøovervåking-på-land/Humler-og-dagsommerfugler ).
+#' The project started in 2009 in the former counties Østfold (now part of county Viken) and Vestfold (now part of county Vestfold and Telemark). Citizen scientists joined the project in 2010, and the project was extended geographically the following year to include also the county Trøndelag. Since 2013, the project also includes the former county of Vest-Agder (now part of county Agder), and county Rogaland.
+#' The surveys are currently performed at a total of 52 sites from the Lucas-grid (country covering grid network with 18 km distance between grids) in the lower parts of the regions (i.e. excluding alpine areas). The grid network is made up of square polygons, placed 18 x 18 km apart, where every square is 1.5 * 1.5 km. In each square, a total of 1 km transects (20 transects á 50 m) are placed in suitable environments (approximately evenly distributed between the habitat types open forest- and grassland), where inventories of butterflies and bumblebees are perfomed three times each summer following a standardized protocol. This includes visual identification and sweep netting along the fixed transects.
+#' @format A data frame with 27915 rows and 26 variables:
+#' \describe{
+#'   \item{\code{id}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{type}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{modified}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{ownerInstitutionCode}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{dynamicProperties}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{parentEventID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{samplingProtocol}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{sampleSizeValue}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{sampleSizeUnit}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventDate}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventTime}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventRemarks}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{locationID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{country}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{countryCode}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{stateProvince}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{municipality}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{locality}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{locationRemarks}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{decimalLatitude}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{decimalLongitude}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{geodeticDatum}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{coordinateUncertaintyInMeters}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{footprintWKT}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{footprintSRS}}{character COLUMN_DESCRIPTION}
+#'}
+#' @source \url{https://doi.org/10.15468/mpsa4g}
+"BeesAndButterfliesEvent"
+
+#' @title Bumblebees and butterflies in Norway
+#' @description The Norwegian Institute for Nature Research (www.nina.no) has conducted area representative surveys of butterflies and bumblebees since 2009, on behalf of the Norwegian Environment Agency (https://www.miljodirektoratet.no/). The monitoring project is designed to provide indicators of bumblebees and butterflies to the Nature Index of Norway (https://naturindeks.no/), which measures the condition of the biodiversity in Norway. The monitoring project is supervised by the Norwegian Institute for Nature Research, but the field inventories are done by citizen scientists administered by Sabima (https://www.sabima.no/). More information (in Norwegian) can be found at the project web-page, which also has a rudimentary data display of the projects results (https://www.nina.no/Våre-fagområder/Miljøovervåking-på-land/Humler-og-dagsommerfugler ).
+#' The project started in 2009 in the former counties Østfold (now part of county Viken) and Vestfold (now part of county Vestfold and Telemark). Citizen scientists joined the project in 2010, and the project was extended geographically the following year to include also the county Trøndelag. Since 2013, the project also includes the former county of Vest-Agder (now part of county Agder), and county Rogaland.
+#' The surveys are currently performed at a total of 52 sites from the Lucas-grid (country covering grid network with 18 km distance between grids) in the lower parts of the regions (i.e. excluding alpine areas). The grid network is made up of square polygons, placed 18 x 18 km apart, where every square is 1.5 * 1.5 km. In each square, a total of 1 km transects (20 transects á 50 m) are placed in suitable environments (approximately evenly distributed between the habitat types open forest- and grassland), where inventories of butterflies and bumblebees are perfomed three times each summer following a standardized protocol. This includes visual identification and sweep netting along the fixed transects.
+#' @format A data frame with 3506580 rows and 19 variables:
+#' \describe{
+#'   \item{\code{id}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{modified}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{basisOfRecord}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{occurrenceID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{individualCount}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{sex}}{logical COLUMN_DESCRIPTION}
+#'   \item{\code{lifeStage}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{occurrenceStatus}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{taxonID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{scientificName}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{kingdom}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{phylum}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{class}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{order}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{family}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{genus}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{specificEpithet}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{vernacularName}}{character COLUMN_DESCRIPTION}
+#'}
+#' @source \url{https://doi.org/10.15468/mpsa4g}
+"BeesAndButterfliesOcc"
+
+#' BeesAndButterflies EML
+#'
+#' An eml document (ecological metadata) for the Bumblebees and butterflies in Norway dataset
+#'
+#' @format An eml file
+#' \describe{
+#'   \item{datset}{metadata about the dataset}
+#'   \item{additionalMetadata}{additional metadata}
+#'   ...
+#' }
+#' @source \url{https://doi.org/10.15468/mpsa4g}
+"BeesAndButterfliesEML"
+
+#' @title Extensive monitoring of breeding birds (TOV-E) Event data
+#' @description Data from the project Extensive monitoring of breeding birds (TOV-E); from 2006 up until today. The project is carried out in cooperation between NOF BirdLife Norway, Norwegian Institute for Nature Research (NINA) and the Norwegian Environment Agency, and is the most important project for monitoring population trends for Norwegian bird species on land
+#' @format A data frame with 3798 rows and 29 variables:
+#' \describe{
+#'   \item{\code{id}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{type}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{modified}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{datasetName}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{ownerInstitutionCode}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{informationWithheld}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{dataGeneralizations}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{samplingProtocol}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{sampleSizeValue}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{sampleSizeUnit}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{samplingEffort}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventDate}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{eventTime}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{year}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{month}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{day}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{locationID}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{country}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{countryCode}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{stateProvince}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{municipality}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{locality}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{minimumElevationInMeters}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{maximumElevationInMeters}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{decimalLatitude}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{decimalLongitude}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{geodeticDatum}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{coordinateUncertaintyInMeters}}{double COLUMN_DESCRIPTION}
+#'}
+#'@source \url{https://doi.org/10.15468/6jmw2e}
+"Tov_E_Event"
+
+
+#' @title Extensive monitoring of breeding birds (TOV-E) occurrence data
+#' @description Data from the project Extensive monitoring of breeding birds (TOV-E); from 2006 up until today. The project is carried out in cooperation between NOF BirdLife Norway, Norwegian Institute for Nature Research (NINA) and the Norwegian Environment Agency, and is the most important project for monitoring population trends for Norwegian bird species on land
+#' @format A data frame with 85759 rows and 20 variables:
+#' \describe{
+#'   \item{\code{id}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{type}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{modified}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{collectionCode}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{basisOfRecord}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{occurrenceID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{catalogNumber}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{occurrenceRemarks}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{organismQuantity}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{organismQuantityType}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{scientificName}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{kingdom}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{phylum}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{class}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{order}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{family}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{genus}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{infraspecificEpithet}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{vernacularName}}{character COLUMN_DESCRIPTION}
+#'}
+#'@source \url{https://doi.org/10.15468/6jmw2e}
+"Tov_EOcc"
+
+#' TOV_E_EML
+#'
+#' An eml document (ecological metadata) for the Extensive monitoring of breeding birds (TOV-E)
+#'
+#' @format An eml file
+#' \describe{
+#'   \item{datset}{metadata about the dataset}
+#'   \item{additionalMetadata}{additional metadata}
+#'   ...
+#' }#'@source \url{https://doi.org/10.15468/6jmw2e}
+"Tov_E_EML"
