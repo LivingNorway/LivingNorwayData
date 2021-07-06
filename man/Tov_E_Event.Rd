@@ -3,7 +3,7 @@
 \docType{data}
 \name{Tov_E_Event}
 \alias{Tov_E_Event}
-\title{Extensive monitoring of breeding birds (TOV-E) Event data}
+\title{Extensive monitoring of breeding birds (TOV-E) [event data]}
 \format{
 A data frame with 3798 rows and 29 variables:
 \describe{

@@ -88,7 +88,7 @@
 #' @source \url{https://www.gbif.org/dataset/9801530f-ab2f-4913-9050-d7239d12aed0}
 "Seapop"
 
-#' @title Bumblebees and butterflies in Norway
+#' @title Bumblebees and butterflies in Norway [event data]
 #' @description The Norwegian Institute for Nature Research (www.nina.no) has conducted area representative surveys of butterflies and bumblebees since 2009, on behalf of the Norwegian Environment Agency (https://www.miljodirektoratet.no/). The monitoring project is designed to provide indicators of bumblebees and butterflies to the Nature Index of Norway (https://naturindeks.no/), which measures the condition of the biodiversity in Norway. The monitoring project is supervised by the Norwegian Institute for Nature Research, but the field inventories are done by citizen scientists administered by Sabima (https://www.sabima.no/). More information (in Norwegian) can be found at the project web-page, which also has a rudimentary data display of the projects results (https://www.nina.no/Våre-fagområder/Miljøovervåking-på-land/Humler-og-dagsommerfugler ).
 #' The project started in 2009 in the former counties Østfold (now part of county Viken) and Vestfold (now part of county Vestfold and Telemark). Citizen scientists joined the project in 2010, and the project was extended geographically the following year to include also the county Trøndelag. Since 2013, the project also includes the former county of Vest-Agder (now part of county Agder), and county Rogaland.
 #' The surveys are currently performed at a total of 52 sites from the Lucas-grid (country covering grid network with 18 km distance between grids) in the lower parts of the regions (i.e. excluding alpine areas). The grid network is made up of square polygons, placed 18 x 18 km apart, where every square is 1.5 * 1.5 km. In each square, a total of 1 km transects (20 transects á 50 m) are placed in suitable environments (approximately evenly distributed between the habitat types open forest- and grassland), where inventories of butterflies and bumblebees are perfomed three times each summer following a standardized protocol. This includes visual identification and sweep netting along the fixed transects.
@@ -124,7 +124,7 @@
 #' @source \url{https://doi.org/10.15468/mpsa4g}
 "BeesAndButterfliesEvent"
 
-#' @title Bumblebees and butterflies in Norway
+#' @title Bumblebees and butterflies in Norway [occurence data]
 #' @description The Norwegian Institute for Nature Research (www.nina.no) has conducted area representative surveys of butterflies and bumblebees since 2009, on behalf of the Norwegian Environment Agency (https://www.miljodirektoratet.no/). The monitoring project is designed to provide indicators of bumblebees and butterflies to the Nature Index of Norway (https://naturindeks.no/), which measures the condition of the biodiversity in Norway. The monitoring project is supervised by the Norwegian Institute for Nature Research, but the field inventories are done by citizen scientists administered by Sabima (https://www.sabima.no/). More information (in Norwegian) can be found at the project web-page, which also has a rudimentary data display of the projects results (https://www.nina.no/Våre-fagområder/Miljøovervåking-på-land/Humler-og-dagsommerfugler ).
 #' The project started in 2009 in the former counties Østfold (now part of county Viken) and Vestfold (now part of county Vestfold and Telemark). Citizen scientists joined the project in 2010, and the project was extended geographically the following year to include also the county Trøndelag. Since 2013, the project also includes the former county of Vest-Agder (now part of county Agder), and county Rogaland.
 #' The surveys are currently performed at a total of 52 sites from the Lucas-grid (country covering grid network with 18 km distance between grids) in the lower parts of the regions (i.e. excluding alpine areas). The grid network is made up of square polygons, placed 18 x 18 km apart, where every square is 1.5 * 1.5 km. In each square, a total of 1 km transects (20 transects á 50 m) are placed in suitable environments (approximately evenly distributed between the habitat types open forest- and grassland), where inventories of butterflies and bumblebees are perfomed three times each summer following a standardized protocol. This includes visual identification and sweep netting along the fixed transects.
@@ -166,7 +166,7 @@
 #' @source \url{https://doi.org/10.15468/mpsa4g}
 "BeesAndButterfliesEML"
 
-#' @title Extensive monitoring of breeding birds (TOV-E) Event data
+#' @title Extensive monitoring of breeding birds (TOV-E) [event data]
 #' @description Data from the project Extensive monitoring of breeding birds (TOV-E); from 2006 up until today. The project is carried out in cooperation between NOF BirdLife Norway, Norwegian Institute for Nature Research (NINA) and the Norwegian Environment Agency, and is the most important project for monitoring population trends for Norwegian bird species on land
 #' @format A data frame with 3798 rows and 29 variables:
 #' \describe{
@@ -204,7 +204,7 @@
 "Tov_E_Event"
 
 
-#' @title Extensive monitoring of breeding birds (TOV-E) occurrence data
+#' @title Extensive monitoring of breeding birds (TOV-E) [occurrence data]
 #' @description Data from the project Extensive monitoring of breeding birds (TOV-E); from 2006 up until today. The project is carried out in cooperation between NOF BirdLife Norway, Norwegian Institute for Nature Research (NINA) and the Norwegian Environment Agency, and is the most important project for monitoring population trends for Norwegian bird species on land
 #' @format A data frame with 85759 rows and 20 variables:
 #' \describe{
@@ -241,5 +241,89 @@
 #'   \item{datset}{metadata about the dataset}
 #'   \item{additionalMetadata}{additional metadata}
 #'   ...
-#' }#'@source \url{https://doi.org/10.15468/6jmw2e}
+#' }
+#' @source \url{https://doi.org/10.15468/6jmw2e}
 "Tov_E_EML"
+
+#' @title Tetraonid line transect surveys from Norway: Data from Finnmarkseiendommen (FeFo) [event data]
+#' @description The dataset originates from a line transect survey program in Finnmark county in northern Norway carried out from 2000- and onward. The surveys are part of a national program - Hønsefuglportalen (http://honsefugl.nina.no), operated in close collaboration among NINA (www.nina.no), Nord University (www.nord.no), Inland Norway University of Applied Sciences (www.inn.no) as well as landowners responsible for grouse management on their properties (state-owned land on Finnmarkseiendommen (FeFo), Statskog, and Fjellstyrene, as well as several private landowners).
+#' In general, NINA offers common e-infrastructure for data entry, data curation, management of users and communication from the project (http://honsefugl.nina.no). NINA together with the involved universities are offering advice regarding sampling design, and has developed a standard field protocol used by all participating stakeholders. The specific part of the program carried out on FeFo's property is operated in collaboration between NINA and FeFo, with clear and distinct allocation of tasks and responsibilities between the parties. FeFo is responsible for conducting field work, as well as final decisions regarding allocation of transect lines among study areas.
+#' Surveys are carried out mainly by volunteer personnel instructed to follow standardized field protocols. Field work is carried out annually in August, with a team of two persons following pre-defined transect lines, using trained pointing dogs to search both sides of the transect line. When birds are observed, species, cluster size (separated into age- and sex classes), perpendicular distances from the transect line to the observed cluster of birds, GPS coordinates of the clusters and time of day are recorded. In addition, length (and geographical position) of the transect line is recorded, as well as some other auxiliary data.
+#' @format A data frame with 7182 rows and 27 variables:
+#' \describe{
+#'   \item{\code{id}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{type}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{modified}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{ownerInstitutionCode}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{dynamicProperties}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{parentEventID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{samplingProtocol}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{sampleSizeValue}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{sampleSizeUnit}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventDate}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{eventTime}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventRemarks}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{locationID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{country}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{countryCode}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{stateProvince}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{municipality}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{locality}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{verbatimLocality}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{locationRemarks}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{decimalLatitude}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{decimalLongitude}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{geodeticDatum}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{coordinateUncertaintyInMeters}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{footprintWKT}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{footprintSRS}}{character COLUMN_DESCRIPTION}
+#'}
+#' @source \url{https://doi.org/10.15468/s7c8qd}
+#' @references {Nilsen E B, Vang R, Asbjørnsen E (2021). Tetraonid line transect surveys from Norway: Data from Finnmarkseiendommen (FeFo). Version 1.6. Norwegian Institute for Nature Research. Sampling event dataset https://doi.org/10.15468/s7c8qd accessed via GBIF.org on 2021-07-06.}
+
+"FeFoEvent"
+
+
+#' @title  Tetraonid line transect surveys from Norway: Data from Finnmarkseiendommen (FeFo) [occurence data]
+#' @description The dataset originates from a line transect survey program in Finnmark county in northern Norway carried out from 2000- and onward. The surveys are part of a national program - Hønsefuglportalen (http://honsefugl.nina.no), operated in close collaboration among NINA (www.nina.no), Nord University (www.nord.no), Inland Norway University of Applied Sciences (www.inn.no) as well as landowners responsible for grouse management on their properties (state-owned land on Finnmarkseiendommen (FeFo), Statskog, and Fjellstyrene, as well as several private landowners).
+#' In general, NINA offers common e-infrastructure for data entry, data curation, management of users and communication from the project (http://honsefugl.nina.no). NINA together with the involved universities are offering advice regarding sampling design, and has developed a standard field protocol used by all participating stakeholders. The specific part of the program carried out on FeFo's property is operated in collaboration between NINA and FeFo, with clear and distinct allocation of tasks and responsibilities between the parties. FeFo is responsible for conducting field work, as well as final decisions regarding allocation of transect lines among study areas.
+#' Surveys are carried out mainly by volunteer personnel instructed to follow standardized field protocols. Field work is carried out annually in August, with a team of two persons following pre-defined transect lines, using trained pointing dogs to search both sides of the transect line. When birds are observed, species, cluster size (separated into age- and sex classes), perpendicular distances from the transect line to the observed cluster of birds, GPS coordinates of the clusters and time of day are recorded. In addition, length (and geographical position) of the transect line is recorded, as well as some other auxiliary data.
+#' @format A data frame with 8277 rows and 17 variables:
+#' \describe{
+#'   \item{\code{id}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{modified}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{basisOfRecord}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{occurrenceID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{individualCount}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{sex}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{lifeStage}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{eventID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{taxonID}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{scientificName}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{kingdom}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{phylum}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{class}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{order}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{family}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{genus}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{specificEpithet}}{character COLUMN_DESCRIPTION}
+#'}
+#' @source \url{https://doi.org/10.15468/s7c8qd}
+#' @references {Nilsen E B, Vang R, Asbjørnsen E (2021). Tetraonid line transect surveys from Norway: Data from Finnmarkseiendommen (FeFo). Version 1.6. Norwegian Institute for Nature Research. Sampling event dataset https://doi.org/10.15468/s7c8qd accessed via GBIF.org on 2021-07-06.}
+"FeFoOcc"
+
+#' FeFoEML
+#'
+#' An eml document (ecological metadata) for the Tetraonid line transect surveys from Norway: Data from Finnmarkseiendommen (FeFo)
+#'
+#' @format An eml file
+#' \describe{
+#'   \item{datset}{metadata about the dataset}
+#'   \item{additionalMetadata}{additional metadata}
+#'   ...
+#' }
+#' @source \url{https://doi.org/10.15468/s7c8qd}
+#' @references {Nilsen E B, Vang R, Asbjørnsen E (2021). Tetraonid line transect surveys from Norway: Data from Finnmarkseiendommen (FeFo). Version 1.6. Norwegian Institute for Nature Research. Sampling event dataset https://doi.org/10.15468/s7c8qd accessed via GBIF.org on 2021-07-06.}
+
+"FeFoEML"

@@ -3,7 +3,7 @@
 \docType{data}
 \name{BeesAndButterfliesOcc}
 \alias{BeesAndButterfliesOcc}
-\title{Bumblebees and butterflies in Norway}
+\title{Bumblebees and butterflies in Norway [occurence data]}
 \format{
 A data frame with 3506580 rows and 19 variables:
 \describe{

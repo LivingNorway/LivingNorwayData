@@ -3,7 +3,7 @@
 \docType{data}
 \name{Tov_EOcc}
 \alias{Tov_EOcc}
-\title{Extensive monitoring of breeding birds (TOV-E) occurrence data}
+\title{Extensive monitoring of breeding birds (TOV-E) [occurrence data]}
 \format{
 A data frame with 85759 rows and 20 variables:
 \describe{
