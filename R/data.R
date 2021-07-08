@@ -153,19 +153,6 @@
 #' @source \url{https://doi.org/10.15468/mpsa4g}
 "BeesAndButterfliesOcc"
 
-#' BeesAndButterflies EML
-#'
-#' An eml document (ecological metadata) for the Bumblebees and butterflies in Norway dataset
-#'
-#' @format An eml file
-#' \describe{
-#'   \item{datset}{metadata about the dataset}
-#'   \item{additionalMetadata}{additional metadata}
-#'   ...
-#' }
-#' @source \url{https://doi.org/10.15468/mpsa4g}
-"BeesAndButterfliesEML"
-
 #' @title Extensive monitoring of breeding birds (TOV-E) [event data]
 #' @description Data from the project Extensive monitoring of breeding birds (TOV-E); from 2006 up until today. The project is carried out in cooperation between NOF BirdLife Norway, Norwegian Institute for Nature Research (NINA) and the Norwegian Environment Agency, and is the most important project for monitoring population trends for Norwegian bird species on land
 #' @format A data frame with 3798 rows and 29 variables:
@@ -231,19 +218,6 @@
 #'}
 #'@source \url{https://doi.org/10.15468/6jmw2e}
 "Tov_EOcc"
-
-#' TOV_E_EML
-#'
-#' An eml document (ecological metadata) for the Extensive monitoring of breeding birds (TOV-E)
-#'
-#' @format An eml file
-#' \describe{
-#'   \item{datset}{metadata about the dataset}
-#'   \item{additionalMetadata}{additional metadata}
-#'   ...
-#' }
-#' @source \url{https://doi.org/10.15468/6jmw2e}
-"Tov_E_EML"
 
 #' @title Tetraonid line transect surveys from Norway: Data from Finnmarkseiendommen (FeFo) [event data]
 #' @description The dataset originates from a line transect survey program in Finnmark county in northern Norway carried out from 2000- and onward. The surveys are part of a national program - Hønsefuglportalen (http://honsefugl.nina.no), operated in close collaboration among NINA (www.nina.no), Nord University (www.nord.no), Inland Norway University of Applied Sciences (www.inn.no) as well as landowners responsible for grouse management on their properties (state-owned land on Finnmarkseiendommen (FeFo), Statskog, and Fjellstyrene, as well as several private landowners).
@@ -312,18 +286,3 @@
 #' @source \url{https://doi.org/10.15468/s7c8qd}
 #' @references {Nilsen E B, Vang R, Asbjørnsen E (2021). Tetraonid line transect surveys from Norway: Data from Finnmarkseiendommen (FeFo). Version 1.6. Norwegian Institute for Nature Research. Sampling event dataset https://doi.org/10.15468/s7c8qd accessed via GBIF.org on 2021-07-06.}
 "FeFoOcc"
-
-#' FeFoEML
-#'
-#' An eml document (ecological metadata) for the Tetraonid line transect surveys from Norway: Data from Finnmarkseiendommen (FeFo)
-#'
-#' @format An eml file
-#' \describe{
-#'   \item{datset}{metadata about the dataset}
-#'   \item{additionalMetadata}{additional metadata}
-#'   ...
-#' }
-#' @source \url{https://doi.org/10.15468/s7c8qd}
-#' @references {Nilsen E B, Vang R, Asbjørnsen E (2021). Tetraonid line transect surveys from Norway: Data from Finnmarkseiendommen (FeFo). Version 1.6. Norwegian Institute for Nature Research. Sampling event dataset https://doi.org/10.15468/s7c8qd accessed via GBIF.org on 2021-07-06.}
-
-"FeFoEML"
