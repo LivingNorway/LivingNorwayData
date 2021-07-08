@@ -1,0 +1,230 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="aea17af8-5578-4b04-b5d3-7adf0c5a1e60/v1.2" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+
+<dataset>
+  <alternateIdentifier>aea17af8-5578-4b04-b5d3-7adf0c5a1e60</alternateIdentifier>
+  <alternateIdentifier>https://ipt.nina.no/resource?r=butterflies_bumblebees2020</alternateIdentifier>
+  <title xml:lang="eng">Bumblebees and butterflies in Norway</title>
+      <creator>
+    <individualName>
+        <givenName>Sandra</givenName>
+      <surName>Åström</surName>
+    </individualName>
+    <organizationName>Norwegian Institute for Nature Research</organizationName>
+    <positionName>Research Scientist</positionName>
+    <address>
+        <deliveryPoint>Postboks 5685 Torgarden</deliveryPoint>
+        <city>Trondheim</city>
+        <postalCode>7485</postalCode>
+        <country>NO</country>
+    </address>
+    <phone>+4741207869</phone>
+    <electronicMailAddress>sandra.astrom@nina.no</electronicMailAddress>
+      </creator>
+      <creator>
+    <individualName>
+        <givenName>Jens</givenName>
+      <surName>Åström</surName>
+    </individualName>
+    <organizationName>Norwegian Institute for Nature Research</organizationName>
+    <positionName>Research Scientist</positionName>
+    <address>
+        <deliveryPoint>Postboks 5685 Torgarden</deliveryPoint>
+        <city>Trondheim</city>
+        <postalCode>7485</postalCode>
+        <country>NO</country>
+    </address>
+    <electronicMailAddress>jens.astrom@nina.no</electronicMailAddress>
+          <userId directory="http://orcid.org/">0000-0002-6114-0440</userId>
+      </creator>
+      <metadataProvider>
+    <individualName>
+        <givenName>Sandra</givenName>
+      <surName>Åström</surName>
+    </individualName>
+    <organizationName>Norwegian Institute for Nature Research</organizationName>
+    <positionName>Research Scientist</positionName>
+    <address>
+        <deliveryPoint>Postboks 5685 Torgarden</deliveryPoint>
+        <city>Trondheim</city>
+        <postalCode>7485</postalCode>
+        <country>NO</country>
+    </address>
+    <phone>+4741207869</phone>
+    <electronicMailAddress>sandra.astrom@nina.no</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Jens</givenName>
+      <surName>Åström</surName>
+    </individualName>
+    <organizationName>Norwegian Institute for Nature Research</organizationName>
+    <positionName>Research Scientist</positionName>
+    <address>
+        <deliveryPoint>Postboks 5685 Torgarden</deliveryPoint>
+        <city>Trondheim</city>
+        <postalCode>7485</postalCode>
+        <country>NO</country>
+    </address>
+    <electronicMailAddress>jens.astrom@nina.no</electronicMailAddress>
+          <userId directory="http://orcid.org/">0000-0002-6114-0440</userId>
+      </metadataProvider>
+  <pubDate>
+      2020-08-11
+  </pubDate>
+  <language>eng</language>
+  <abstract>
+    <para>The Norwegian Institute for Nature Research (www.nina.no) has conducted area representative surveys of butterflies and bumblebees since 2009, on behalf of the Norwegian Environment Agency (https://www.miljodirektoratet.no/). The monitoring project is designed to provide indicators of bumblebees and butterflies to  the Nature Index of Norway (https://naturindeks.no/), which measures the condition of the biodiversity in Norway. The monitoring project is supervised by the Norwegian Institute for Nature Research, but the field inventories are done by citizen scientists administered by Sabima (https://www.sabima.no/). More information (in Norwegian) can be found at the project web-page, which also has a rudimentary data display of the projects results (https://www.nina.no/V%C3%A5re-fagomr%C3%A5der/Milj%C3%B8overv%C3%A5king-p%C3%A5-land/Humler-og-dagsommerfugler ).
+The project started in 2009 in the former counties Østfold (now part of county Viken) and Vestfold (now part of county Vestfold and Telemark). Citizen scientists joined the project in 2010, and the project was extended geographically the following year to include also the county Trøndelag. Since 2013, the project also includes the former county of Vest-Agder (now part of county Agder), and county Rogaland. 
+The surveys are currently performed at a total of 52 sites from the Lucas-grid (country covering grid network with 18 km distance between grids) in the lower parts of the regions (i.e. excluding alpine areas). The grid network is made up of square polygons, placed  18 x 18 km apart, where every square is 1.5 * 1.5 km. In each square, a total of 1 km transects (20 transects á 50 m) are placed in suitable environments (approximately evenly distributed between the habitat types open forest- and grassland), where inventories of butterflies and bumblebees are perfomed three times each summer following a standardized protocol. This includes visual identification and sweep netting along the fixed transects.</para>
+  </abstract>
+      <keywordSet>
+            <keyword>Samplingevent</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+  <intellectualRights>
+    <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+  </intellectualRights>
+  <distribution scope="document">
+    <online>
+      <url function="information">https://www.nina.no/V%C3%A5re-fagomr%C3%A5der/Milj%C3%B8overv%C3%A5king-p%C3%A5-land/Humler-og-dagsommerfugler</url>
+    </online>
+  </distribution>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>Butterflies and bumblebees are registered in the regions containing former counties Østfold (now part of county Viken) and Vestfold (now part of county Vestfold and Telemark), in the county Trøndelag, and in the region containing the former county of Vest-Agder (now part of county Agder) and county Rogaland.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>4.746</westBoundingCoordinate>
+          <eastBoundingCoordinate>14.37</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.643</northBoundingCoordinate>
+          <southBoundingCoordinate>58.078</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+          <taxonomicCoverage>
+              <generalTaxonomicCoverage>There are 35 bumblebee species and around 100 butterfly species in Norway. This monitoring project focus on the species that can be found in open grass- and forestland in the regions included in the project, although all species, even the unexpected ones, found on transects are registered. All species of the genus Bombus found are registered (see Norwegian species list of bumblebees on https://artsdatabanken.no/Pages/231205/Oversikt_over_alle_humler_i), and all species of the butterfly families Papilionidae, Hesperiidae, Pieridae, Lycaenidae, Nymhalidae, and Zygaenidae found are registered (see Norwegian species list of butterflies on https://artsdatabanken.no/arter-pa-nett/sommerfugler).</generalTaxonomicCoverage>
+              <taxonomicClassification>
+                  <taxonRankName>genus</taxonRankName>
+                <taxonRankValue>Bombus</taxonRankValue>
+                  <commonName>bumblebees</commonName>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Lepidoptera</taxonRankValue>
+                  <commonName>butterflies</commonName>
+              </taxonomicClassification>
+          </taxonomicCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para></para>
+    </description>
+    <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  </maintenance>
+
+      <contact>
+    <individualName>
+        <givenName>Sandra</givenName>
+      <surName>Åström</surName>
+    </individualName>
+    <organizationName>Norwegian Institute for Nature Research</organizationName>
+    <positionName>Research Scientist</positionName>
+    <address>
+        <deliveryPoint>Postboks 5685 Torgarden</deliveryPoint>
+        <city>Trondheim</city>
+        <postalCode>7485</postalCode>
+        <country>NO</country>
+    </address>
+    <phone>+4741207869</phone>
+    <electronicMailAddress>sandra.astrom@nina.no</electronicMailAddress>
+      </contact>
+      <contact>
+    <individualName>
+        <givenName>Jens</givenName>
+      <surName>Åström</surName>
+    </individualName>
+    <organizationName>Norwegian Institute for Nature Research</organizationName>
+    <positionName>Research Scientist</positionName>
+    <address>
+        <deliveryPoint>Postboks 5685 Torgarden</deliveryPoint>
+        <city>Trondheim</city>
+        <postalCode>7485</postalCode>
+        <country>NO</country>
+    </address>
+    <phone>+4740634121</phone>
+    <electronicMailAddress>jens.astrom@nina.no</electronicMailAddress>
+    <onlineUrl>https://github.com/jenast/NBBM_data_export/blob/master/NBBM_GBIF_to_BMS_export.md</onlineUrl>
+          <userId directory="http://orcid.org/">0000-0002-6114-0440</userId>
+      </contact>
+  <methods>
+        <methodStep>
+          <description>
+            <para>These data are collected in a project where butterflies and bumblebees are monitored yearly in three regions of Norway.</para>
+          </description>
+        </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Butterflies and bumblebees are monitored in a total of 52 sites from the Lucas-grid in Norway (country covering grid network with 18 km distance between grids); 17 sites in the region containing former counties Østfold (now part of county Viken) and Vestfold (now part of county Vestfold and Telemark), 18 sites in the county Trøndelag, and 17 sites in the region containing the former county of Vest-Agder (now part of county Agder) and county Rogaland. The sites are selected using a gridded network of 1.5 * 1.5 km squares, placed 18 x 18 km apart. In each square, a total of 1 km transects (20 transects á 50 m) are placed in suitable environments (open forest- and grassland).
+Butterflies and bumblebees are counted and determined to species. The vegetative cover of flowering plants is also registered during the inventories, as well as weather parameters and the time at the start and end of the recording on the transects. The transects are visited three times during the summer in order to encompass the phenological range of different species, specifically in the spring, mid-summer and late summer.</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Registration of bumblebees and butterflies are made three times each summer on each transect; in late spring, mid-summer and late summer. The field work is carried out by volunteer personnel instructed to follow a standardized field protocol. The volunteers follow predefined transect lines, which they locate using GPS. To ensure that the counts are standardized as much as possible, transect walks are undertaken between 10.00 and 17.00 and only when weather conditions are suitable for the activity of the monitored insects (above 15 °C, maximum 60 % cloud cover, little wind). During the transect walks, butterflies and bumblebees 2.5 meter to each side and 5 m ahead are registered both in species and number. If necessary, the insects are caught using a sweep net for closer investigation. The total cover of flowering plants (scale from 0-3), weather conditions (temperature and cloudiness), and time is also documented for each transect.</para>
+        </samplingDescription>
+      </sampling>
+  </methods>
+  <project >
+    <title>National monitoring of butterflies and bumblebees in Norway</title>
+      <personnel>
+        <individualName>
+            <givenName>Sandra</givenName>
+          <surName>Åström</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Jens</givenName>
+          <surName>Åström</surName>
+        </individualName>
+              <userId directory="http://orcid.org/">0000-0002-6114-0440</userId>
+        <role>originator</role>
+      </personnel>
+      <abstract>
+        <para>Bumblebees and butterflies are in general negatively affected by recent and ongoing anthropogenic land use changes in agricultural areas, mainly reduction in quality and quantity of habitat as a result altered agricultural practices and increased infrastructure. In particular, abandonment of traditional land use practices, such as extensive grazing in pastures and maintenance of hay meadows tend to lead to overgrowth and loss of habitat. Several bumblebee and butterfly species in Europe have declined during the last 100 years as a result of changes in agriculture.
+Bumblebees and butterflies are important due to their ecological roles, and they are also vulnerable to environmental changes. Monitoring can thus act as a warning flag if data shows that species or populations decline. In Norway, we have 35 species of bumblebees and around 100 species of butterflies. Many of them are easily identified, and it is a manageable task to learn how to identify most of them in the field with a little practice.
+This monitoring project has been designed to provide indicators to the Nature Index of Norway, which measures the condition of the biodiversity in Norway. The project is led by the Norwegian Institute for Nature Research, and field inventories are done by volunteers administered by Sabima.</para>
+      </abstract>
+      <funding>
+        <para>The project is funded by the Norwegian Environment Agency.</para>
+      </funding>
+      <studyAreaDescription>
+        <descriptor name="generic"
+                    citableClassificationSystem="false">
+          <descriptorValue>The project is monitoring butterflies and bumblebees in open grass-and forestland in the lower parts of three regions in Norway; former counties Østfold (now part of county Viken) and Vestfold (now part of county Vestfold and Telemark), the county Trøndelag, and in the region containing the former county of Vest-Agder (now part of county Agder) and county Rogaland. In total, 52 sites are included in the monitoring scheme, where each site contains 1 km of transects.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+      <designDescription>
+        <description>
+          <para>These data are collected in a project where butterflies and bumblebees are monitored yearly in three regions of Norway.</para>
+        </description>
+      </designDescription>
+  </project>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+          <dateStamp>2020-06-08T00:21:05.120+00:00</dateStamp>
+          <hierarchyLevel>dataset</hierarchyLevel>
+            <citation>Åström, Sandra Charlotte Helene; Åström, Jens; Bøhn, Kristoffer; Gjershaug, Jan Ove; Staverløkk, Arnstein; Dahle, Sondre; Ødegaard, Frode (2020): Bumblebees and butterflies in Norway. v1. Norwegian Institute for Nature Research. Dataset/Samplingevent. https://ipt.nina.no/ipt/resource?r=butterflies_bumblebees2020&amp;amp;v=1.0</citation>
+          <resourceLogoUrl>https://www.nina.no/images/logo_liten_bare_NINA.jpg</resourceLogoUrl>
+            <formationPeriod>2009-current</formationPeriod>
+          <dc:replaces>aea17af8-5578-4b04-b5d3-7adf0c5a1e60/v1.2.xml</dc:replaces>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
